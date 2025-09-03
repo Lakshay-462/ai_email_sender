@@ -1,17 +1,24 @@
-# 📧 AI Email Sender
+# AI Email Sender
 
 An AI-powered email sender built with **Node.js**, **Express**, **Groq AI**, and **Google OAuth2**.  
 This app allows you to:
 
-✅ Login with Google  
-✅ Enter recipient emails, subject, and an AI prompt  
-✅ Generate a professional email using AI  
-✅ Edit the generated email before sending  
-✅ Send the email via your Google account  
+- Login with Google  
+- Enter recipient emails, subject, and an AI prompt  
+- Generate a professional email using AI  
+- Edit the generated email before sending  
+- Send the email via your Google account
+  
+The site is live at this [link](https://ai-email-sender-p87v.onrender.com).   
+
+Image added for your reference:
+
+<img width="1050" height="669" alt="Screenshot 2025-09-04 at 12 07 47 AM" src="https://github.com/user-attachments/assets/4c38f58b-9571-4a53-b55c-cc3a74235819" />
+
 
 ---
 
-## 🚀 Features
+## Features
 - **Google OAuth2 Authentication** (secure login with Google before sending emails)  
 - **AI-Powered Email Generation** using Groq API  
 - **Editable Email Drafts** before sending  
@@ -22,7 +29,7 @@ This app allows you to:
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1) Clone the Repository
 ```bash
