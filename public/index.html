@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>AI Email Sender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>AI Email Sender</h2>
+
+    <div id="authStatus"></div>
+    <button id="logoutBtn" style="display:none">Logout</button>
+
+    <label>Recipients (comma or newline separated)</label>
+    <textarea id="recipients" rows="2" placeholder="a@example.com, b@example.com"></textarea>
+
+    <label>Subject</label>
+    <input id="subject" placeholder="Subject line" />
+
+    <label>Prompt for AI</label>
+    <textarea id="prompt" rows="4">Write a concise professional email introducing myself and requesting a 30-minute meeting. Include polite closing.</textarea>
+    <button id="generateBtn" class="primary-btn">Generate Email</button>
+
+    <label>Generated Email (editable)</label>
+    <textarea id="emailBody" rows="12"></textarea>
+
+    <div style="margin-top:12px">
+      <button id="sendBtn" class="primary-btn">Send Email</button>
+      <span id="status"></span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

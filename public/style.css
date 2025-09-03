@@ -1,0 +1,108 @@
+/* Background */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100%;
+  margin: 3%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card container */
+.container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 80%;
+}
+
+/* Headline */
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Inputs */
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+  resize: vertical;
+  transition: border 0.2s;
+}
+
+input:focus, textarea:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.primary-btn {
+  width: 100%;
+  background: #667eea;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.primary-btn:hover {
+  background: #5648c2;
+}
+
+.secondary-btn {
+  background: #4caf50;
+  color: #fff;
+  font-weight: bold;
+}
+
+.secondary-btn:hover {
+  background: #3e8e41;
+}
+
+/* Actions */
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desc {
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.8rem;
+  line-height: 1.5;
+}
+
+hr {
+  opacity: 0.5;
+}
+
