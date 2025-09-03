@@ -26,8 +26,8 @@ This app allows you to:
 
 ### 1) Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/AI-Email-Sender.git
-cd AI-Email-Sender
+git clone https://github.com/Lakshay-462/ai-email-sender.git
+cd ai-email-sender
 ```
 
 ### 2) Install Dependencies
